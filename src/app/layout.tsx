@@ -17,9 +17,10 @@ export default function RootLayout({
       <body className="antialiased bg-gradient-to-b from-black to-lime-800 min-h-screen">
         <NextUIWrapper>
           <Header />
-          <main className="min-h-[calc(100vh-72px)] mt-20 w-2/3 mx-auto justify-center flex">
+          <main className="min-h-[calc(100vh-72px)] mt-10 w-[65%] mx-auto justify-center flex">
             {children}
           </main>
+          <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
         </NextUIWrapper>
       </body>
     </html>
